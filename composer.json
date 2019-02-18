@@ -1,0 +1,19 @@
+{
+    "name": "planchu/php7mvc",
+    "description": "Ejemplo de MVC bajo PHP7",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Planchuelo",
+            "email": "victorplanchuelo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/config/config.php"],
+        "psr-4": {
+            "Php7MVC\\": "src/"
+        }
+    }
+}
